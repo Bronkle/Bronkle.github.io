@@ -1,77 +1,83 @@
-html, body { margin: 0; padding: 0; }
-	body {
-		padding: 25px;
-		background-color: #777777;
-		color: #000000;
-		font-size: 25px;	
-		width: 70%;
-		margin-left: auto;
-		margin-right: auto;	
-		background: url(misc/bg.png);
-	}
-	body, pre, p, h2 {
-		font-family: 'Amatic SC', cursive;
-		font-size: 40px;
-		color: #fff;
-	}			
-	.shadowbox {
-		width: 15em;
-		border: 5px dashed #ff0000;
-		box-shadow: 8px 8px 5px #b31515;
-		padding: 8px 12px;
-		background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
-		text-align: center;
-		margin-right: auto; 
-		margin-left: auto; 
-		color: #f00;
-	}			
-	.section {
-		background-color: #555555;
-		border-radius: 10px;
-		text-align: center;
-		margin: 15px;
-		margin-right: auto; 
-		margin-left: auto; 
-		padding: 10px;
-	}
-	.img-circle {
-		border: 5px solid orange;
-		border-radius: 50%;
-		box-shadow: 5px 5px 3px #c9590e;
-	}
-	.style {
-		color: #ff0000;
-	}
-	hr {
-		height:5px; 
-		border-width: 0px; 
-		color: #FF0000; 
-		background-color: #FF0000;
-		margin: 5px;
-		border-radius: 50%;
-	}
-	.purple {
-		background-color: purple;
-	}
-	.orange {
-		background-color: orange;
-	}
-	.yellow {
-		background-color: yellow;
-	}
-	.blue {
-		background-color: blue;
-	}
-	#red_nether_bricks {
-		background: url(misc/red_nether_bricks.png);
-	}
-	#nether_wart_block {
-		background: url(misc/nether_wart_block.png);
-	}
-	#ancient_debris {
-		background: url(misc/ancient_debris.png);
-	}
-	#basalt {
-		background: url(misc/basalt.png);
-	}
-	
+html,
+body {
+   margin: 0;
+   padding: 0;
+}
+body {
+   padding: 25px;
+   background-color: #777777;
+   color: #000000;
+   font-size: 25px;
+   width: 70%;
+   margin-left: auto;
+   margin-right: auto;
+   background: url(misc/bg.png);
+}
+body,
+pre,
+p,
+h2 {
+   font-family: "Amatic SC", cursive;
+   font-size: 40px;
+   color: #fff;
+}
+.shadowbox {
+   width: 15em;
+   border: 5px dashed #ff0000;
+   box-shadow: 8px 8px 5px #b31515;
+   padding: 8px 12px;
+   background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+   text-align: center;
+   margin-right: auto;
+   margin-left: auto;
+   color: #f00;
+}
+.section {
+   background-color: #555555;
+   border-radius: 10px;
+   text-align: center;
+   margin: 15px;
+   margin-right: auto;
+   margin-left: auto;
+   padding: 10px;
+}
+.img-circle {
+   border: 5px solid orange;
+   border-radius: 50%;
+   box-shadow: 5px 5px 3px #c9590e;
+}
+.style {
+   color: #ff0000;
+}
+hr {
+   height: 5px;
+   border-width: 0px;
+   color: #ff0000;
+   background-color: #ff0000;
+   margin: 5px;
+   border-radius: 50%;
+}
+.purple {
+   background-color: purple;
+}
+.orange {
+   background-color: orange;
+}
+.yellow {
+   background-color: yellow;
+}
+.blue {
+   background-color: blue;
+}
+#red_nether_bricks {
+   background: url(misc/red_nether_bricks.png);
+}
+#nether_wart_block {
+   background: url(misc/nether_wart_block.png);
+}
+#ancient_debris {
+   background: url(misc/ancient_debris.png);
+}
+#basalt {
+   background: url(misc/basalt.png);
+}
