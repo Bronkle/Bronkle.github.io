@@ -49,6 +49,9 @@ h2 {
 .style {
    color: #ff0000;
 }
+.color{
+	border-color:red;
+}
 hr {
    height: 5px;
    border-width: 0px;
